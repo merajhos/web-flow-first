@@ -178,13 +178,21 @@ justify-content: center;
 
 
 }
+.log{
+    display: flex;
+    align-items: center;
+}
+.logi{
+    margin-bottom: 13px;
+}
+
 .logi{
 line-height: 0.8px;
 flex-direction: column;
 }
 .reviewer{
 font-weight: 400;
-font-size: 24px;
+font-size: 18px;
 color: #000000;
 opacity: 50%;
 }
