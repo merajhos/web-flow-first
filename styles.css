@@ -294,8 +294,7 @@ gap: 20px;
     color: #000000;
     opacity: 70%;
 }
-.foot  ul li {
-    /* gap: 20px; */
+.foot  ul li { 
     padding: 20px;
 }
 .footer-title .footer-description{
