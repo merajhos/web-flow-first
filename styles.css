@@ -3,6 +3,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: #4E47FF;
 }
 
 .raleway-font2 {
@@ -10,14 +11,10 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-header{
-    /* margin: 0 auto; */
-}
+
 .background1{
     background-image: url(./Assets/Hero-bg.png);
     height: 698px;
-    /* max-width: 1440px; */
-    /* margin: 0 auto */
     background-size: cover;
 }
 nav{
@@ -225,4 +222,92 @@ padding: 25px auto;
 
 .imgs{
     border-radius: 48px;
+}
+
+.full{
+margin: 90px 150px;
+display: block;
+max-width: 1140px;
+margin: 90px auto;
+padding: 130px 230px;
+display: flex;
+gap: 100px;
+background-color: #e4e4e4;
+
+
+}
+.container{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding: 71 auto;
+}
+.content{
+font-weight: bold;
+font-size: 98px;
+text-align: center;
+
+}
+.form{
+width: 525px;
+padding: 20px;
+gap: 20px;
+
+}
+.full input[type="text"], .full input[type="email"] , .full textarea {
+    height: 64px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 1px solid white;
+}
+.btnew{
+    padding: 20px 100px;
+}
+.foot{
+    display: flex;
+    max-width: 540px;
+    height: 428px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.foot ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: #000000;
+    opacity: 70%;
+}
+.foot  ul li {
+    /* gap: 20px; */
+    padding: 20px;
+}
+.footer-title .footer-description{
+    display: flex;
+    justify-content: center;
+}
+.foot-title{
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 15px;
+}
+.footers{
+    margin: 0 auto;
+}
+.footer-description{
+    color: #000000;
+    opacity: 70%;
 }
