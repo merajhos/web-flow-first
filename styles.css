@@ -15,16 +15,16 @@
 .background1{
     background-image: url(./Assets/Hero-bg.png);
     height: 698px;
-    background-size: 1440px;
+    background-size: cover;
     margin: 0 auto;
 }
+
 nav{
     border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 150px;
-    max-width: 1140px;
     margin: 0 150px;
 }
 nav ul{
@@ -34,6 +34,8 @@ nav ul{
 }
 nav ul li{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 .banner{
 text-align: center;
@@ -154,9 +156,7 @@ font-weight: 700;
 font-size: 42px;
 }
 .design{
-    /* justify-items: center;
-    align-items: center; */
-    text-align: left;
+ text-align: left;
 gap: 24px;
 margin: 68px 34px 98px 24px;
 padding: 33px;
